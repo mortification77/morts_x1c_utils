@@ -13,7 +13,7 @@
 >
 > ### The modifications contained within this repository will allow for repeat leveling without touching the bed screws before each level.
 >
-> ### **NOTE: It is still HIGHLY RECOMMENDED to even them out before running this gcode.**
+> ### **NOTE: It is still HIGHLY RECOMMENDED to even them out *ONCE* for the *initial* run.**
 
 
 ### Files
