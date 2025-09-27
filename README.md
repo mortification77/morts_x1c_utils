@@ -4,20 +4,21 @@
 ### This repository contains custom 3D Printer utilities and files for the Bambu Labs X1(C) Series Printer.
 
 > ### WARNING: Use at *your own risk!*
+
 ---
 
 ## Bed Leveling (Directory: *bed_level/*)
 
-> The default hotbed_tramming_20221102.gcode file provided by Bambu is a "destructive" bed level procedure meaning that it cannot be repeated for further fine tuning or validation as the bed screws must be adjusted each time before executing.
+> ### The default hotbed_tramming_20221102.gcode file provided by Bambu is a "destructive" bed level procedure meaning that it cannot be repeated for further fine tuning or validation as the bed screws must be adjusted each time before executing.
 >
-> The modifications contained within this repository will allow for repeat leveling without touching the bed screws before each level.
+> ### The modifications contained within this repository will allow for repeat leveling without touching the bed screws before each level.
 >
-> **NOTE: It is still HIGHLY RECOMMENDED to even them out before running this gcode.**
+> ### **NOTE: It is still HIGHLY RECOMMENDED to even them out before running this gcode.**
 
 
 ### Files
 
-* hotbed_tramming_mort_30s.gcode
+* bed_level/hotbed_tramming_mort_30s.gcode
 
 	- Updated "G1 ZX.X" moves to move up only 0.1 mm (instead of 0.4 mm) from the bed for each adjustment position.
 
